@@ -1,4 +1,53 @@
-*{ 
+body{
     background-color: black;
-
 }
+.mail{
+        font-weight: bold;
+        height: 50px;
+        font-size: 16px;
+        color: white;
+        outline:none;
+        border-radius: 4px;
+        border:none;
+        font:0.7em Arial;
+        }
+        .button{ 
+            border-radius: 12px;
+            font-weight: bold;
+            height: 50px; 
+            font-weight: 100px;
+            box-shadow: white;
+            background-color: rgb(24, 224, 24);
+            font-size: 16px;
+            font-style: normal;
+            color: white;
+            padding: 15px 40px;
+            text-align: center;
+            display: inline-block;
+            margin: unset;
+        
+
+            }
+            .display{
+                line-height: 60px;
+            }
+            div#box{
+                width: 936px;
+                height: 470px;
+                border: 2px; 
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+            }
+            div.kutu{
+                flex: 1px;
+                text-align: center;
+                margin: 1px;
+                color: white;
+                size: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                
+                
+                
+            }
+    
