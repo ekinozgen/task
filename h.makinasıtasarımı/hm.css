@@ -1,9 +1,9 @@
 .number,
 .numberTemizle {
-  width: 95px;
-  height: 105px;
+  width: 85px;
+  height: 90px;
   margin: 0px;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: #c8c8c8;
   border: none;
   font-size: 30px;
@@ -18,24 +18,23 @@ input:hover {
 }
 
 #sonuc {
-  padding: 3px;
-  width: 95%;
-  height: 55px;
-  border-radius: 3px;
-  background-color: #c8c8c8;
-  border: none;
-  font-size: 30px;
-  font-family: "Arial";
-  font-weight: bold;
+  height: 90px;
+  width: 341px;
   color: #626262;
+  font-family: Arial;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
   text-align: right;
+  background-color: #c8c8c8;
+  border-radius: 3px;
 }
 
 #esittir {
-  width: 95%;
-  height: 55px;
+  width: 399px;
+  height: 90px;
   padding: 3px;
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: #c8c8c8;
   border: none;
   font-size: 30px;
