@@ -3,6 +3,7 @@
   <head>
     <title>Hesap Makinesi</title>
     <link rel="stylesheet" type="text/css" href="hm.css" />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
@@ -15,39 +16,42 @@
       </ul>
 
       <ul>
-        <li><button class="number">7</button></li>
-        <li><button class="number">8</button></li>
-        <li><button class="number">9</button></li>
-        <li><button class="number">/</button></li>
+        <li><button class="number" islem="7">7</button></li>
+        <li><button class="number" islem="8">8</button></li>
+        <li><button class="number" islem="9">9</button></li>
+        <li><button class="number" islem="/">/</button></li>
       </ul>
 
       <ul>
-        <li><button class="number">4</button></li>
-        <li><button class="number">5</button></li>
-        <li><button class="number">6</button></li>
-        <li><button class="number">*</button></li>
+        <li><button class="number" islem="4">4</button></li>
+        <li><button class="number" islem="5">5</button></li>
+        <li><button class="number" islem="6">6</button></li>
+        <li><button class="number" islem="*">*</button></li>
       </ul>
 
       <ul>
-        <li><button class="number">3</button></li>
-        <li><button class="number">2</button></li>
-        <li><button class="number">1</button></li>
-        <li><button class="number">-</button></li>
+        <li><button class="number" islem="3">3</button></li>
+        <li><button class="number" islem="2">2</button></li>
+        <li><button class="number" islem="1">1</button></li>
+        <li><button class="number" islem="-">-</button></li>
       </ul>
 
       <ul>
         <li>
-          <button class="numberTemizle">Del</button>
+          <button onclick="temizle()" class="numberTemizle" islem="temizle">
+            Del
+          </button>
         </li>
-        <li><button class="number">0</button></li>
-        <li><button class="number">.</button></li>
-        <li><button class="number">+</button></li>
+        <li><button class="number" islem="0">0</button></li>
+        <li><button class="number" islem=".">.</button></li>
+        <li><button class="number" islem="+">+</button></li>
       </ul>
 
       <ul>
         <li>
           <input
             class="number"
+            islem="="
             type="text"
             id="esittir"
             readonly="readonly"
@@ -56,5 +60,6 @@
         </li>
       </ul>
     </div>
+    <script src="hm.js"></script>
   </body>
 </html>
