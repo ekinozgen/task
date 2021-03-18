@@ -10,6 +10,7 @@
   font-family: "Arial";
   font-weight: bold;
   padding: 15px;
+  color: #000;
 }
 
 .number:hover,
@@ -27,11 +28,11 @@ input:hover {
   line-height: 72px;
   text-align: right;
   background-color: #c8c8c8;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 #esittir {
-  width: 399px;
+  width: 350px;
   height: 90px;
   padding: 3px;
   border-radius: 8px;
