@@ -43,6 +43,16 @@ input:hover {
   font-weight: bold;
   text-align: center;
 }
+#karealma {
+  width: 177px;
+  height: 90px;
+  border-radius: 8px;
+}
+#kupalma {
+  width: 177px;
+  height: 90px;
+  border-radius: 8px;
+}
 
 li {
   display: inline-block;
