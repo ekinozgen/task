@@ -16,24 +16,24 @@
       </ul>
 
       <ul>
-        <li><button class="number" islem="7">7</button></li>
-        <li><button class="number" islem="8">8</button></li>
-        <li><button class="number" islem="9">9</button></li>
-        <li><button class="number" islem="/">/</button></li>
+        <li><button class="number val" islem="7">7</button></li>
+        <li><button class="number val" islem="8">8</button></li>
+        <li><button class="number val" islem="9">9</button></li>
+        <li><button class="number val" islem="/">/</button></li>
       </ul>
 
       <ul>
-        <li><button class="number" islem="4">4</button></li>
-        <li><button class="number" islem="5">5</button></li>
-        <li><button class="number" islem="6">6</button></li>
-        <li><button class="number" islem="*">*</button></li>
+        <li><button class="number val" islem="4">4</button></li>
+        <li><button class="number val" islem="5">5</button></li>
+        <li><button class="number val" islem="6">6</button></li>
+        <li><button class="number val" islem="*">*</button></li>
       </ul>
 
       <ul>
-        <li><button class="number" islem="3">1</button></li>
-        <li><button class="number" islem="2">2</button></li>
-        <li><button class="number" islem="1">3</button></li>
-        <li><button class="number" islem="-">-</button></li>
+        <li><button class="number val" islem="1">1</button></li>
+        <li><button class="number val" islem="2">2</button></li>
+        <li><button class="number val" islem="3">3</button></li>
+        <li><button class="number val" islem="-">-</button></li>
       </ul>
 
       <ul>
@@ -42,28 +42,27 @@
             DEL
           </button>
         </li>
-        <li><button class="number" islem="0">0</button></li>
-        <li><button class="number" islem=".">.</button></li>
-        <li><button class="number" islem="+">+</button></li>
+        <li><button class="number val" islem="0">0</button></li>
+        <li><button class="number val" islem=".">.</button></li>
+        <li><button class="number val" islem="+">+</button></li>
       </ul>
       <ul>
         <li>
-         <button
-            class="number"
-            id="karealma"
-            islem="x²"
-          >
+          <button onclick="Kare()" class="number" id="karealma" islem="x²">
             x²
           </button>
         </li>
-        <l />
-          <button class="number" id="kupalma" islem="x³">x³</button>
+        <li>
+          <button onclick="Kup()" class="number" islem="x³" id="kupalma">
+            x³
+          </button>
         </li>
       </ul>
 
       <ul>
         <li>
           <input
+            onclick="showResult()"
             class="number"
             islem="="
             type="text"

@@ -1,8 +1,10 @@
-var tuslar = document.getElementsByClassName("number");
+var tuslar = document.getElementsByClassName("val");
 
 var sonuc = document.getElementById("sonuc");
 
 var islemler = "";
+
+var esittir = document.getElementById("esittir");
 
 var myFunction = function () {
   var tusDegeri = this.getAttribute("islem");
@@ -13,8 +15,6 @@ var myFunction = function () {
     islemler += tusDegeri;
   }
   sonuc.value = islemler;
-  console.log("tusDegeri: ", tusDegeri);
-  console.log("islemler: ", islemler);
 };
 
 for (var i = 0; i < tuslar.length; i++) {
@@ -22,6 +22,22 @@ for (var i = 0; i < tuslar.length; i++) {
 }
 
 function temizle() {
-  sonuc.value = "";
+  sonuc.value = "0";
   islemler = "";
+}
+
+function showResult() {
+  esittir.addEventListener("click", myFunction, false);
+}
+
+function Kup() {
+  var sayi = document.getElementById.value;
+  var kup = sayi * sayi * sayi;
+  document.getElementById("sonuc").value = kup;
+}
+
+function Kare() {
+  var deger = document.getElementById("sonuc").value;
+  var kare = deger * deger;
+  document.getElementById("sonuc").value = kare;
 }
