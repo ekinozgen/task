@@ -31,7 +31,7 @@ function showResult() {
 }
 
 function Kup() {
-  var sayi = document.getElementById.value;
+  var sayi = document.getElementById("sonuc").value;
   var kup = sayi * sayi * sayi;
   document.getElementById("sonuc").value = kup;
 }
