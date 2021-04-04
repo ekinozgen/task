@@ -1,0 +1,13 @@
+.app-info {
+  height: 100%;
+  width: 653px;
+  background-color: #559;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-info--center {
+  display: grid;
+}
